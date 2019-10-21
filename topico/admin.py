@@ -1,6 +1,7 @@
 from django.contrib import admin
 
 # Register your models here.
+#testing git
 from .models import Question, Choice, WordList, WordPair
 
 class ChoiceInline(admin.TabularInline):
